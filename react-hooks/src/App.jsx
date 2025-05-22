@@ -3,6 +3,7 @@ import { ThemeProvider } from './ThemeContext';
 import ThemeSwitcher from './ThemeSwitcher';
 import Content from './Content';
 import Counter from './Counter';
+import NumberList from './NumberList';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <ThemeSwitcher />
         <Content />
         <Counter />
+        <NumberList />
       </div>
     </ThemeProvider>
   );
