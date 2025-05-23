@@ -4,6 +4,8 @@ import ThemeSwitcher from './ThemeSwitcher';
 import Content from './Content';
 import Counter from './Counter';
 import NumberList from './NumberList';
+import FocusInput from './FocusInput';
+import TodoList from './ToDoList';
 import './App.css';
 
 function App() {
@@ -11,9 +13,19 @@ function App() {
     <ThemeProvider>
       <div className="app">
         <ThemeSwitcher />
-        <Content />
-        <Counter />
-        <NumberList />
+        <h1>React Hooks</h1>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+          <div>
+            <Content />
+            <Counter />
+            <NumberList />
+          </div>
+          <div>
+            <FocusInput />
+            <TodoList />
+          </div>
+        </div>
       </div>
     </ThemeProvider>
   );
