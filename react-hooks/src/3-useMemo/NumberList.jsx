@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import './App.css';
+import '../App.css';
 
 const NumberList = () => {
   const [numbers, setNumbers] = useState(() => generateRandomNumbers(10));

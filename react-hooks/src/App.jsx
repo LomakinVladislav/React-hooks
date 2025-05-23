@@ -1,12 +1,12 @@
 import React from 'react';
-import { ThemeProvider } from './ThemeContext';
-import ThemeSwitcher from './ThemeSwitcher';
-import Content from './Content';
-import Counter from './Counter';
-import NumberList from './NumberList';
-import FocusInput from './FocusInput';
-import TodoList from './ToDoList';
-import ParentComponent from './ParentComponent';
+import { ThemeProvider } from './1-useContext/ThemeContext';
+import ThemeSwitcher from './1-useContext/ThemeSwitcher';
+import Content from './1-useContext/Content';
+import Counter from './2-useCallback/Counter';
+import NumberList from './3-useMemo/NumberList';
+import FocusInput from './4-useRef/FocusInput';
+import TodoList from './5-useReducer/ToDoList';
+import ParentComponent from './6-React.memo/ParentComponent';
 import './App.css';
 
 function App() {

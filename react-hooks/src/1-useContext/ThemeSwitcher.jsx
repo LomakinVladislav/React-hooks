@@ -5,7 +5,7 @@ const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <button 
+    <button
       onClick={toggleTheme}
       className={`theme-switcher ${theme}`}
     >

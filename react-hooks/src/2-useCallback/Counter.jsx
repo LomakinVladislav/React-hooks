@@ -26,7 +26,7 @@ const Counter = () => {
   return (
     <div>
       <h2>Счетчик: {count}</h2>
-      <Buttons 
+      <Buttons
         increment={increment}
         decrement={decrement}
         addItem={addItem}
@@ -34,7 +34,7 @@ const Counter = () => {
       <ItemsList items={items} />
 
 
-      <UnoptimizedButton onClick={incrementWithoutCallback}/>
+      <UnoptimizedButton onClick={incrementWithoutCallback} />
     </div>
   );
 };
