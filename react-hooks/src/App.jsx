@@ -6,6 +6,7 @@ import Counter from './Counter';
 import NumberList from './NumberList';
 import FocusInput from './FocusInput';
 import TodoList from './ToDoList';
+import ParentComponent from './ParentComponent';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <div>
             <FocusInput />
             <TodoList />
+            <ParentComponent />
           </div>
         </div>
       </div>
